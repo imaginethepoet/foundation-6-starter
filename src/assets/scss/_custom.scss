@@ -1,0 +1,449 @@
+/* Global Colors */
+
+ $white: #FFFFFF;
+ $black: #000000;
+ $blue: #4A90E2;
+ $purple: #124164;
+ $orange:#F5A623;
+ $yellow:#F8E71C;
+$green: #417505;
+$gray: #D8D8D8
+
+/* global elements */
+
+p {
+    font-family: 'ralewaylight';
+    font-size:1.667rem;
+    color:$white;
+}
+
+p.shrink-width {
+    max-width:800px;
+}
+
+
+
+/* Nav */
+
+#left-nav-container {
+background-image: url(../img/menu-test.png);
+background-color:rgba(0, 0, 255, 0.9) ;
+border-right: 4px solid rgba(0, 81, 121, 0.7) ;
+}
+
+nav#left-menu {
+
+            padding:0;
+            margin:0;
+            list-style-type:none;
+
+
+    h1 {
+       font-family: 'ralewaymedium';
+       font-size:1.5rem; 
+       margin-top: 40px;
+       color:rgba( $white, .4 );
+       text-align:center;
+        padding-bottom:10px;
+    }
+
+
+
+
+            #menu-vertical {
+
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                }
+                li {
+                    margin-top:5px;
+                    padding-bottom:5px;
+                    font-size:1rem;
+                    color:$white;
+                
+                }
+
+
+
+
+                a:link, a:visited, a:active {
+                    display: block;
+                    text-decoration: none;
+                    color:$white;
+                }
+
+                a:hover{
+                    display: block;
+                    text-decoration: none;
+
+                    -webkit-animation: color_change 1s infinite alternate;
+                    -moz-animation: color_change 1s infinite alternate;
+                    -ms-animation: color_change 1s infinite alternate;
+                    -o-animation: color_change 1s infinite alternate;
+                    animation: color_change 1s infinite alternate; 
+
+
+                }
+
+
+            }
+
+
+}
+
+
+/* Content Container */
+
+#right-container {
+background-image: url(../img/me-bg.png);
+background-size: cover;
+padding:0px !important;
+
+
+
+        h1 {
+           font-family: 'ralewaylight';
+           font-size:4.5rem; 
+           margin-top: 5px;
+           color:$white;
+
+        }
+
+        h2 {
+           font-family: 'ralewaymedium';
+           font-size:1rem; 
+           color:rgba( $white, .2 );
+           margin-top:-1rem;
+        }
+
+
+    article {
+        padding-left:40px;
+
+
+                    .scroller {
+                     overflow-y: scroll;
+                    height:740px;
+                    width:98%;
+                    }
+
+
+                    p.quote{
+                       font-family: 'ralewaymedium';
+                       font-size:1.1rem; 
+                       color:$white;
+                       font-style:italic;
+                       max-width:750px;
+
+                        span.green {
+                            color:$green;
+                        }
+
+                        span.orange {
+                             color:$orange;           
+                        }
+
+                        span.blue {
+                              color:$blue;          
+                        }
+
+                        span.yellow {
+                               color:$yellow;         
+                        }
+
+                }
+
+
+            h3.section-title {
+                    font-family: 'ralewaylight';
+                    font-size:2rem; 
+                    color:rgba( $white, .8);
+                    margin-top:40px;
+                
+
+            }
+
+
+            div.dash-group {
+                  height:135px;
+
+
+
+
+            }
+
+
+
+                .box-1 {
+                    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 179, 255, 0.2)  100%);
+                    border: 1px solid rgba( $white, .2);
+                   // box-shadow: 0px 2px 4px 0px rgba(255,255,255,0.50);
+                    border-radius: 10px;
+                    width:125px;
+                    height:75px;
+
+
+                            .box-1-content {
+                                width:125px;
+                                height:75px;
+                            }
+
+
+
+                            p {
+                                margin-top:10px;
+                                text-align:center;
+                                font-family:'ralewaymedium';
+                                font-weight:500;
+                            }
+
+
+                }
+
+
+
+
+                span.number{
+                    font-family:'ralewaybold';
+                    margin-top:-100px;
+                    margin-left: 30px;
+                    text-align:center;
+                    font-size:3rem;
+                    color:$white;
+
+                }
+
+                span.number-lg{
+                    font-family:'ralewaybold';
+                    margin-top:-100px;
+                    margin-left: 14px;
+                    text-align:center;
+                    font-size:3rem;
+                    color:$white
+
+
+                }
+
+
+
+
+
+                p.text-name {
+                    margin-top:15px;
+                }
+
+
+    }
+
+}
+
+
+
+
+#menu-box {
+padding:0px;
+width:84%;
+height:150px;
+//margin-left:20px;
+
+background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.7) 10%, rgba(0, 81, 121, 0.6) 100%);
+
+background-size: cover;
+position: fixed;
+bottom:0px;
+
+border-top: 5px solid rgba(0, 81, 121, 0.7) ;
+//border-left: 1px solid $white;
+//border-right: 1px solid $white;
+
+//border-radius: 10px 10px 0px 0px;
+//box-shadow: 1px -2px 4px 3px rgba(255,255,255,0.2);
+
+
+        p.title {
+           font-family: 'ralewaymedium';
+           font-size:1.5rem; 
+           margin-top: 10px;
+           margin-left:24px;
+           color:$white;
+            padding-bottom:10px;
+
+        }
+
+
+        ul.menu {
+
+           font-family: 'ralewaybold';
+           font-size:2rem; 
+           margin-top: 10px;
+           margin-left:5px;
+ 
+
+        
+                li  a:link, a:visited {
+                        color:$yellow !important;
+                    }
+
+
+
+
+
+
+        }
+
+
+//border-top: 1px solid #0E629F;
+
+
+}
+
+
+
+
+/* Lists */
+
+ul.lists  {
+
+ li {
+           font-family: 'ralewaylight';
+           font-size:1.2rem; 
+           margin-top: 10px;
+           margin-left:25px;
+           color:$white;
+            padding-bottom:10px;
+
+ }
+
+
+
+
+
+}
+
+
+
+
+/* Skills, Tools, Technology */
+
+#skills {
+
+
+margin-left:10px;
+height:1100px;
+background-color:rgba( $gray, .1);
+
+            h1 {
+
+                       font-family: 'ralewaymedium';
+                       font-size:1.5rem; 
+                       margin-top: 40px;
+                       color:rgba( $white, .4 );
+                        padding-bottom:10px;
+
+            }
+
+                p  {
+                        font-family: 'ralewaylight';
+                        font-size:1.3rem;
+                        line-height:20px;
+                        color:$white;
+                }
+
+
+}
+
+
+
+
+
+
+/* decorations */
+
+hr.vertical {
+    -webkit-transform:rotate(90deg); 
+    width:40px;
+    border:1px solid rgba( $white, .2);
+}
+
+
+.series {
+    animation-duration:2s;
+}
+
+
+
+@include mui-series {
+  // 2 second shake
+  .shake    { @include mui-queue(2s, 0s, shake); }
+  // 1 second spin with a 2 second pause
+  .spin     { @include mui-queue(1s, 2s, spin); }
+  // 1 second zoom and fade
+  .fade-zoom { @include mui-queue(1s, 0s, fade, zoom); }
+}
+
+
+/* Custom Animations */
+
+@-webkit-keyframes color_change {
+    from {color: $white; }
+    to { color: $yellow; }
+}
+@-moz-keyframes color_change {
+    from {color: $white; }
+    to { color: $yellow; }
+}
+@-ms-keyframes color_change {
+    from {color: $white; }
+    to { color: $yellow; }
+}
+@-o-keyframes color_change {
+    from {color: $white; }
+    to { color: $yellow; }
+}
+@keyframes color_change {
+    from {color: $white; }
+    to { color: $yellow; }
+}
+
+
+
+
+
+
+
+
+/// Mixin to customize scrollbars
+/// Beware, this does not work in all browsers
+/// @author Hugo Giraudel
+/// @param {Length} $size - Horizontal scrollbar's height and vertical scrollbar's width
+/// @param {Color} $foreground-color - Scrollbar's color
+/// @param {Color} $background-color [mix($foreground-color, white, 50%)] - Scrollbar's color
+/// @example scss - Scrollbar styling
+///   @include scrollbars(.5em, slategray);
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
+  // For Google Chrome
+  ::-webkit-scrollbar {
+      width:  $size;
+      height: $size;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: $gray;
+  }
+
+  ::-webkit-scrollbar-track {
+      background: rgba(155, 155, 155, 0.7);
+  }
+
+  // For Internet Explorer
+  body {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+
+
+@include scrollbars(.5em, $black);
+
